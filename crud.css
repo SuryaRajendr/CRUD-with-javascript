@@ -1,0 +1,12 @@
+
+.display,td,th{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 50px;
+    background-color: burlywood;
+    border:1px solid black;
+   
+    }
+    
+   
+

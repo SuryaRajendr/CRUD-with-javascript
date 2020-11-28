@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <title>SAMPLE FORM</title>
+    <link href="crud.css" rel="stylesheet" type="text/css"> 
+    <link rel="shortcut icon" href="#">
+  
+</head>
+<body>
+    <form>
+              <h1>Data Entry Form</h1>
+                  <table id="content">
+                    <tr>
+                         <td>
+                           Name :
+                         </td>
+                         <td>
+                            <input type="text"id="name"/>
+                       
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                           Last Name:
+                         </td>
+                         <td>
+                            <input type="text"id="lastname"/>
+                       
+                         </td>
+                     </tr>
+                     <!-- <tr>
+                         <td>
+                           Gender :
+                         </td>
+                         <td>
+                            <input type="radio" value="male" name="gender">Male
+                            <input type="radio" value="female"  name="gender">Female
+                       
+                         </td>
+                     </tr> -->
+                     <tr>
+                         <td>
+                           Date Of Birth:
+                         </td>
+                         <td>
+                            <input type="date" id="dob"/>
+                       
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                           Qualification :
+                         </td>
+                         <td>
+                            <input type="text" name=""id="qualification"/>
+                       
+                         </td>
+                     </tr>
+                     <!-- <tr>
+                         <td>
+                           Skills:
+                         </td>
+                         <td>
+                            <input type="checkbox" class="chkbx" value="Java" id= "skills">Java
+                            <br/>
+                            <input type="checkbox" class="chkbx" value="DotNet"id= "skills"/>DotNet
+                            <br/>
+                            <input type="checkbox" class="chkbx" value="AngularJs"id= "skills"/>AngularJs
+                            <br/>
+                            <input type="checkbox" class="chkbx" value="SQL"id= "skills"/>SQL
+                            <br/>
+                       
+                         </td>
+                     </tr>
+                     <tr> -->
+                         <td>
+                           phone no :
+                         </td>
+                         <td>
+                            <select id="ddselect">
+                               <option>+91</option>
+                               <option>97</option>
+                               <option>98</option>
+                               <option>99</option>
+                               <option>87</option>
+                               <option>88</option>
+                               <option>89</option>
+                            </select>
+                            <input type="phone" placeholder="978828***" id="phonenumber"/>
+                       
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                           E-Mail:
+                         </td>
+                         <td>
+                            <input type="mail" name="" id="mail"/>
+                       
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                           Experience:
+                         </td>
+                         <td>
+                            <input type="text" name="" id="experience"/>
+                       
+                         </td>
+                     </tr>
+                  </table>
+               </form><br>
+  
+  <button type="button" id="submit">submit</button><br/><br/>
+
+  <div class="table">
+     <table id="display">
+     <tr>
+        <th>Name</th>
+        <th> Last Name</th>
+        <!-- <th>Gender</th> -->
+        <th> Date Of Birth</th>
+        <th>Qualification</th>
+        <!-- <th> Skills</th> -->
+        <th> phone no</th>
+        <th>E-Mail</th>
+        <th>  Experience</th>
+        
+        
+     </tr>
+   </table>
+  </div>
+  <script src ="crud.js"></script>
+  </body>
+ 
+</html>
